@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    .product1 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: flex-start;
+        & h1 {
+            font-size: 60px;
+            }
+            & p {
+                color: #f1be9c;
+                
+            }
+            .button2 {
+                background-color: #04AA6D; /* Green */
+                border: none;
+                color: black;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                border-radius: 3px;
+
+            }
+        
+        
+    }
+}
+
+.picture {
+            
+    width: 500px;
+    
+
+    &__image{
+        width: 100%;
+        border-radius: 200px;
+    }
+    
+}
+
+.product3 {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+    .pictures {
+        padding: 10px;
+        &__pictures {
+            width: 5%;
+            border-radius: 50px;
+        }
+    }
+    
+}

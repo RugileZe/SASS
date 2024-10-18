@@ -6,40 +6,73 @@
     <title>SASS Atsiskaitymas</title>
     
     <link rel="stylesheet" href="css/style.css">
-
+   
 </head>
 <body>
     <header>
-        <h4>Shayana</h4>
-        <div class="navbar-nav">
-            <ul>
+        
+        <div class="navbar">
+            <h4 class="navbar__title">Shayana</h4>
+            <ul class="navbar__list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Start</a></li>
                 <li><a href="#">Browse</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Story</a></li>
             </ul>
-            <button class="sumbit">Sing in</button>
+            <button class="button">Sing in</button>
         </div>
     </header>
-    <main>
+    <section>
         <div class="container">
-            <h1>Learn UI Design From The Real Expert</h1>
-            <p>Stop waisting time browsing around ant start learning from our designers for your better carrer</p>
-            <button class="submit">Get Started</button>
-            <img src="img/woman.jpg" alt="Woman">
+            <div class="product1">
+                <h1>Learn UI Design From The Real Expert</h1>
+                <p>Stop waisting time browsing around ant start learning from our designers for your better carrer</p>
+                <button class="button2">Get Started</button>
+            </div>
+            <div class="picture">
+                <img class="picture__image" src="img/woman.jpg" alt="Woman">
+            </div>
         </div>
-        <div class="product">
-            <article>Trusted by Global Companies</article>
-            <img src="img/apple.png" alt="Apple">
-            <img src="img/adobe.png" alt="Adobe">
-            <img src="img/slack.png" alt="Slack">
-            <img src="img/spotify.png" alt="Spotify">
-            <img src="img/google.png" alt="Google">
+    </section>
+    <section>
+            <div class="product3">
+                <article>Trusted by Global Companies</article>
+                <div class=pictures>
+                    <img class=pictures__pictures src="img/apple.png" alt="Apple">
+                    <img class=pictures__pictures src="img/adobe.png" alt="Adobe">
+                    <img class=pictures__pictures src="img/slack.png" alt="Slack">
+                    <img class=pictures__pictures src="img/spotify.png" alt="Spotify">
+                    <img class=pictures__pictures src="img/google.png" alt="Google">
+                </div>
+            </div>
+    </section>
+    <main>
+        <div class="product4">
+            <p class="word__text">Grow Today</p>
+            <h4 class="word">Start Your Career</h4>
         </div>
-        <div class="product2">
-            <p>Grow Today</p>
-            <h4>Start Your Career</h4>
+        <div class="cards">
+            <div class="cards__card">
+                <img class="cards__photo" src="img/1.jpg" alt="1">
+                <h3>Aisyah</h3>
+                <p>I teach how to start UX</p>
+            </div>
+            <div class="cards__card">
+                <img class="cards__photo" src="img/2.jpg" alt="2">
+                <h3>Angga</h3>
+                <p>I teach how to design text</p>
+            </div>
+            <div class="cards__card">
+                <img class="cards__photo" src="img/3.jpg" alt="3">
+                <h3>Mabdul</h3>
+                <p>I tech how to asses design</p>
+            </div>
+            <div class="cards__card">
+                <img class="cards__photo" src="img/4.jpg" alt="4">
+                <h3>Wo You</h3>
+                <p>I teach how to do icons</p>
+            </div>
         </div>
     </main>
 </body>
